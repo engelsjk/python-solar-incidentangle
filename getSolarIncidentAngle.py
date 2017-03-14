@@ -169,7 +169,7 @@ ax.plot(o_datetime_utc, o_zenith, 'g')
 ax.plot(o_datetime_utc, o_incident_angle, 'r')
 ax.set_title(title)
 plt.tight_layout()
-f.savefig('solar-incidentangle-1.png')   # save the figure to file
+f.savefig('plots/solar-incidentangle-1.png')   # save the figure to file
 plt.close(f)
 
 # Three subplots sharing both x/y axes
@@ -186,5 +186,5 @@ ax1.set_ylabel('Azimuth (South CC) [deg]',fontsize=9)
 ax2.set_ylabel('Zenith (Vertical) [deg]',fontsize=9)
 ax3.set_ylabel('Incident Angle [deg]',fontsize=9)
 plt.tight_layout()
-f.savefig('solar-incidentangle-2.png')   # save the figure to file
+f.savefig('plots/solar-incidentangle-2.png')   # save the figure to file
 plt.close(f)
